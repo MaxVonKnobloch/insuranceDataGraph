@@ -1,7 +1,7 @@
 # insuranceDataGraph
 Contains R package with REST endpoints
 
-Erros that occur directly after installing and loading the package, restarting the session (.rs.restartR()) should help
+In case an error occurs directly after installing and loading the package, restarting the session (.rs.restartR()) should help.
 
 To run the swagger and make the endpoints accessible, run the method createAPI().
 
