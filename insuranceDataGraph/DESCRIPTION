@@ -1,0 +1,15 @@
+Package: insuranceDataGraph
+Type: Package
+Title: Insurance-Data Graphs Package
+Version: 1.0
+Date: 2019-03-06
+Author: Maximilian von Knobloch
+Maintainer: Maximilian von Knobloch <max.vknobloch@gmail.com>
+Description: The package consists of 5 functions.
+	The function createAPI() creates one endpoint GET method info(), which returns
+	a json-file with a short description of the package, and one POST method Graphs(dataset),
+	which returns a pdf file with visualizations of the input data set.
+	The other functions "AgePlot(data)", "AgeGenderPlot(data)", 
+	"InsuranceDurationPlot(data)" and "InsuredPeoplePlot(data)" are plotting the 
+	graphs to visualize the data. 
+License: GPL-2
